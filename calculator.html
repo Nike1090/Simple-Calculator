@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="calculator.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1 class="heading"></h1>
+        <form>
+            <div class="form-row">
+                <div class="col">
+                    <label for="Number1">Number 1</label>
+                    <input type="text" class="form-control" id="Number1" placeholder="Number 1">
+                    <div id="Number1-error" class="error"></div>
+                </div>
+                <div class="col">
+                    <label for="Number2">Number 2</label>
+                    <input type="text" class="form-control" id="Number2" placeholder="Number 2">
+                    <div id="Number2-error" class="error"></div>
+                </div>
+                <div class="col">
+                    <label for="result">Result</label>
+                    <input type="text" class="form-control" id="result" placeholder="Result" readonly>
+                </div>
+            </div>
+        </form>
+        <div id="buttons">
+            <button id="add">Add</button>
+            <button id="subtract">Subtract</button>
+            <button id="multiply">Multiply</button>
+            <button id="divide">Divide</button>
+        </div>
+    </div>
+   <script src="calculatorScript.js"></script>
+</body>
+</html>
