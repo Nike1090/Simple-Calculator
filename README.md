@@ -51,6 +51,12 @@ This is a simple web application that serves as a calculator and user registrati
 - `script.js`: JavaScript/jQuery for the registration page.
 - `calculatorScript.js`: JavaScript/jQuery for the calculator page.
 
+## Live Demo
+
+You can access the live demo of this stopwatch app by following the link below:
+
+- [Live Demo](https://nike1090.github.io/Simple-Calculator/)
+
 ## License
 
 This project is open source and available under the [MIT License](LICENSE).
